@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+:root {
+	/* Reusable color definitions */
+	--color-primary: #010080;
+	--color-text: white;
+
+	/* Font Definitions */
+	--font-family-primary: 'Roboto Mono', 'Courier New', monospace;
+}
